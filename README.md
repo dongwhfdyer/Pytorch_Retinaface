@@ -4,6 +4,17 @@ It will find the landmarks of face.
 
 Just run the `detect.py`.
 
+# dataset info
+
+dataset website: [widerface](http://shuoyang1213.me/WIDERFACE/index.html)
+widerface val dataset is on tencentcloud disk. 
+annotation for train, val, test is on baiducloud disk.
+`WIDERFACE_val.zip` is on [tencentcloud](https://www.weiyun.com/disk/folder/504298530f882f079dbe4ea6a19b0da5).
+`retinaface_gt_v1.1` is the annotation file for train, val, test.
+
+
+---
+
 # RetinaFace in PyTorch
 
 A [PyTorch](https://pytorch.org/) implementation of [RetinaFace: Single-stage Dense Face Localisation in the Wild](https://arxiv.org/abs/1905.00641). Model size only 1.7M, when Retinaface use mobilenet0.25 as backbone net. We also provide resnet50 as backbone net to get better result. The official code in Mxnet can be found [here](https://github.com/deepinsight/insightface/tree/master/RetinaFace).
