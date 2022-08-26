@@ -1,2 +1,5 @@
 .idea
 weights/Resnet50_Final.pth
+/datasets/
+/rubb/
+/weights/
